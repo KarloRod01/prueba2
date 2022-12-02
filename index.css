@@ -1,0 +1,94 @@
+
+:root{
+	
+	--color-de-fondo: #191919;
+	--texto: #AAA;
+	--color-general: #333;
+	--color-naranja: #DDD71B;
+}
+
+body{
+	font-family: Segoe UI;
+	font-size: 14px;
+	color: var(--color-genral);
+}
+header{
+	background-color: #000;
+	position: relative;
+	width: 100%;
+	padding: 10px 0;
+	
+}
+
+header img{
+	
+	width: 350px;
+}
+
+
+#hero{
+	
+	background-image: url("img/bg-hero.jpg");
+	background-position:center;
+	background-size: cover;
+	padding:7% 0;
+}
+
+
+#hero h1{
+	
+	color: #fff;
+	font-size:70px;
+	font-weight:700;
+}
+
+
+
+#hero h4{
+	
+	color: #fff;
+	font-size:18px;
+}
+
+#hero h3{
+	
+	color: #fff;
+	font-size:30px;
+}
+#hero h2{
+	
+	color: #fff;
+	font-size:30px;
+}
+
+.btn-naranja{
+	
+	background-color: var(--color-naranja);
+	color: ##000000;
+	padding: 15px 30px;
+	font-size: 16px;
+	font-weigth:800;
+	letter-sapcing:1px;
+	
+	
+}
+
+
+footer{
+	color: #fff;
+	background-color: #0000;
+	padding: 15px 8px 8px 8px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-top: 20px;
+	
+}
+
+footer p{
+	color: #fff;
+	background-color: #0000;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 13px;
+	margin-top: 20px;
